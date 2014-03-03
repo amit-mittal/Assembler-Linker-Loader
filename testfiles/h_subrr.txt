@@ -1,0 +1,8 @@
+KUDO START
+    DATA:  EQU  05H
+    DATA1: EQU 03H
+    START: CHALABHI B,DATA
+	   CHALABHI C,DATA1
+	   SUBRR B,C
+	   CHAL A,B
+           HLT

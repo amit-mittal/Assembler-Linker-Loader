@@ -1,0 +1,6 @@
+QWERTY # JMP
+SD # LXI
+QWER # MOV
+DSF # OUT
+ERT # IN
+DFG # STA

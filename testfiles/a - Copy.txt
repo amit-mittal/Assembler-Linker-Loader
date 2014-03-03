@@ -1,0 +1,10 @@
+JMP start              
+    port1: EQU  9h
+    data:  EQU  7fh
+    var1:  DB   data, 0    
+    start: LXI  h, var1    
+           MOV  a, m       
+           OUT  port1      
+           IN   port1     
+           STA  var1+1     
+           HLT

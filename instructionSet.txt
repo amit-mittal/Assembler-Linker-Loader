@@ -1,0 +1,6 @@
+JMP
+LXI
+MOV
+OUT
+IN
+STA

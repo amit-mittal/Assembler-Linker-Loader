@@ -1,0 +1,5 @@
+KUDO START              
+    DATA:  EQU  05H  
+    START: FACTORIAL DATA        
+           BACHAO  2000H     
+           HLT
